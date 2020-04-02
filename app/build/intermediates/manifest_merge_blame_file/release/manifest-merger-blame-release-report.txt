@@ -1,0 +1,234 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Chapter 1, Exercise 1: Change version data to 2 and 2.0 -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="codepath.apps.demointroandroid"
+5    android:versionCode="2"
+6    android:versionName="2.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:8:5-67
+12-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:9:5-71
+13-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:9:22-69
+14
+15    <application
+15-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:11:5-129:19
+16        android:allowBackup="true"
+16-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:12:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] /Users/hainhl1/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+18        android:icon="@drawable/ic_launcher"
+18-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:13:9-45
+19        android:label="@string/app_name"
+19-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:14:9-41
+20        android:theme="@style/AppTheme" >
+20-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:15:9-40
+21        <activity
+21-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:16:9-24:20
+22            android:name="codepath.apps.demointroandroid.DemoSelector"
+22-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:17:13-71
+23            android:label="@string/app_name" >
+23-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:18:13-45
+24            <intent-filter>
+24-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:19:13-23:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:20:17-69
+25-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:20:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:22:17-77
+27-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:22:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:25:9-28:20
+31            android:name="codepath.apps.demointroandroid.BasicTextViewActivity"
+31-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:26:13-80
+32            android:label="@string/title_activity_basic_text_view" >
+32-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:27:13-67
+33        </activity>
+34        <activity
+34-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:29:9-32:20
+35            android:name="codepath.apps.demointroandroid.LinearLayoutDemoActivity"
+35-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:30:13-83
+36            android:label="@string/title_activity_linear_layout_demo" >
+36-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:31:13-70
+37        </activity>
+38        <activity
+38-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:33:9-36:20
+39            android:name="codepath.apps.demointroandroid.LayoutGravityActivity"
+39-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:34:13-80
+40            android:label="@string/title_activity_layout_gravity" >
+40-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:35:13-66
+41        </activity>
+42        <activity
+42-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:37:9-40:20
+43            android:name="codepath.apps.demointroandroid.BasicViewsActivity"
+43-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:38:13-77
+44            android:label="@string/title_activity_basic_views" >
+44-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:39:13-63
+45        </activity>
+46        <activity
+46-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:41:9-44:20
+47            android:name="codepath.apps.demointroandroid.ViewAttributesActivity"
+47-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:42:13-81
+48            android:label="@string/title_activity_view_attributes" >
+48-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:43:13-67
+49        </activity>
+50        <activity
+50-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:45:9-48:20
+51            android:name="codepath.apps.demointroandroid.SimpleListViewActivity"
+51-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:46:13-81
+52            android:label="@string/title_activity_simple_list_view" >
+52-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:47:13-68
+53        </activity>
+54        <activity
+54-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:49:9-52:20
+55            android:name="codepath.apps.demointroandroid.BasicClickHandlersActivity"
+55-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:50:13-85
+56            android:label="@string/title_activity_basic_click_handlers" >
+56-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:51:13-72
+57        </activity>
+58        <activity
+58-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:53:9-56:20
+59            android:name="codepath.apps.demointroandroid.ButtonToastActivity"
+59-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:54:13-78
+60            android:label="@string/title_activity_button_toast" >
+60-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:55:13-64
+61        </activity>
+62        <activity
+62-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:57:9-60:20
+63            android:name="codepath.apps.demointroandroid.ListViewClicksActivity"
+63-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:58:13-81
+64            android:label="@string/title_activity_list_view_clicks" >
+64-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:59:13-68
+65        </activity>
+66        <activity
+66-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:61:9-64:20
+67            android:name="codepath.apps.demointroandroid.ExplicitIntentActivity"
+67-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:62:13-81
+68            android:label="@string/title_activity_explicit_intent" >
+68-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:63:13-67
+69        </activity>
+70        <activity
+70-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:65:9-68:20
+71            android:name="codepath.apps.demointroandroid.ImplicitIntentsActivity"
+71-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:66:13-82
+72            android:label="@string/title_activity_implicit_intents" >
+72-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:67:13-68
+73        </activity>
+74        <activity
+74-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:69:9-72:20
+75            android:name="codepath.apps.demointroandroid.IntentWithResultActivity"
+75-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:70:13-83
+76            android:label="@string/title_activity_intent_with_result" >
+76-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:71:13-70
+77        </activity>
+78        <activity
+78-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:73:9-76:20
+79            android:name="codepath.apps.demointroandroid.ActionBarMenuActivity"
+79-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:74:13-80
+80            android:label="@string/title_activity_action_bar_menu" >
+80-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:75:13-67
+81        </activity>
+82        <activity
+82-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:77:9-80:20
+83            android:name="codepath.apps.demointroandroid.SimpleBundleDemoActivity"
+83-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:78:13-83
+84            android:label="@string/title_activity_simple_bundle_demo" >
+84-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:79:13-70
+85        </activity>
+86        <activity
+86-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:81:9-84:20
+87            android:name="codepath.apps.demointroandroid.SimpleReturnResultActivity"
+87-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:82:13-85
+88            android:label="@string/title_activity_simple_return_result" >
+88-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:83:13-72
+89        </activity>
+90        <activity
+90-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:85:9-88:20
+91            android:name="codepath.apps.demointroandroid.BasicImageDownloadActivity"
+91-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:86:13-85
+92            android:label="@string/title_activity_basic_image_download" >
+92-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:87:13-72
+93        </activity>
+94        <activity
+94-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:89:9-92:20
+95            android:name="codepath.apps.demointroandroid.AsyncTaskPerformActivity"
+95-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:90:13-83
+96            android:label="@string/title_activity_async_task_perform" >
+96-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:91:13-70
+97        </activity>
+98        <activity
+98-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:93:9-96:20
+99            android:name="codepath.apps.demointroandroid.SmartImageDownloadActivity"
+99-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:94:13-85
+100            android:label="@string/title_activity_smart_image_download" >
+100-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:95:13-72
+101        </activity>
+102        <activity
+102-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:97:9-100:20
+103            android:name="codepath.apps.demointroandroid.ToastFormInputsActivity"
+103-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:98:13-82
+104            android:label="@string/title_activity_toast_form_inputs" >
+104-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:99:13-69
+105        </activity>
+106        <activity
+106-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:101:9-104:20
+107            android:name="codepath.apps.demointroandroid.SpinnerWithToastActivity"
+107-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:102:13-83
+108            android:label="@string/title_activity_spinner_with_toast" >
+108-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:103:13-70
+109        </activity>
+110        <activity
+110-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:105:9-108:20
+111            android:name="codepath.apps.demointroandroid.TimePickerDemoActivity"
+111-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:106:13-81
+112            android:label="@string/title_activity_time_picker_demo" >
+112-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:107:13-68
+113        </activity>
+114        <activity
+114-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:109:9-112:20
+115            android:name="codepath.apps.demointroandroid.ProgressBarActivity"
+115-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:110:13-78
+116            android:label="@string/title_activity_progress_bar" >
+116-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:111:13-64
+117        </activity>
+118        <activity
+118-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:113:9-116:20
+119            android:name="codepath.apps.demointroandroid.GridViewDemoActivity"
+119-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:114:13-79
+120            android:label="@string/title_activity_grid_view_demo" >
+120-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:115:13-66
+121        </activity>
+122        <activity
+122-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:117:9-120:20
+123            android:name="codepath.apps.demointroandroid.PersistSettingsActivity"
+123-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:118:13-82
+124            android:label="@string/title_activity_persist_settings" >
+124-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:119:13-68
+125        </activity>
+126        <activity
+126-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:121:9-124:20
+127            android:name="codepath.apps.demointroandroid.ContactListActivity"
+127-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:122:13-78
+128            android:label="@string/title_activity_contact_list" >
+128-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:123:13-64
+129        </activity>
+130        <activity
+130-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:125:9-128:20
+131            android:name="codepath.apps.demointroandroid.PublishingInstructionsActivity"
+131-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:126:13-89
+132            android:label="@string/title_activity_publishing_instructions" >
+132-->/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/src/main/AndroidManifest.xml:127:13-75
+133        </activity>
+134    </application>
+135
+136</manifest>

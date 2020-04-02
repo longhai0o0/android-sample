@@ -1,0 +1,4 @@
+#Thu Apr 02 13:55:40 JST 2020
+base.0=/Users/hainhl1/Working/Win lap/DT/Android/Sample Prj/intro_android_demo/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
