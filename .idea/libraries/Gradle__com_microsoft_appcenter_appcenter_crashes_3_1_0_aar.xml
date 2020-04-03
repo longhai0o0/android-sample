@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.appcenter:appcenter-crashes:3.1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c514f54b30d3dbd1cb7523aba5ad5491/jetified-appcenter-crashes-3.1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c514f54b30d3dbd1cb7523aba5ad5491/jetified-appcenter-crashes-3.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c514f54b30d3dbd1cb7523aba5ad5491/jetified-appcenter-crashes-3.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/appcenter-crashes/3.1.0/9a214141fd8cace8f1bc46d7f4294de62c365b47/appcenter-crashes-3.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/appcenter-crashes/3.1.0/84e937a8c299e8e00bf11af64ac4293c400936e2/appcenter-crashes-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
